@@ -1,0 +1,117 @@
+body{
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav.navigation{
+    display: flex;
+
+}
+nav.navigation img{
+    width: 54%;
+    margin-inline:11px;
+    margin-top: -11px;
+
+}
+.navigation h4{
+    margin-inline: 11px;
+    margin-top: 5px;
+
+}
+nav h4{
+    margin-top:5px ;
+}
+nav h4:hover{
+    cursor: pointer;
+}
+nav img{
+    width: 4%;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    background-color: black;
+     padding: 17px;
+     color: white;
+
+}
+.navbar button{
+    margin-inline: 11px;
+    width: 160px;
+    height: 37px;
+    background-color: rgb(241,3,39);
+    color: white;
+    border: none;
+    border-radius: 22px;
+    font-size: 19px;
+
+}
+.main img{
+    width: 100%;
+}
+h2{
+    margin-left: 32px;
+    padding: 11px;
+    margin-top: 11px;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 22px
+}
+.card:hover{
+    cursor: pointer;
+}
+.card .crd img{
+    width:70% ;
+}
+.s-card{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.s-card img{
+    width: 400px;
+
+}
+.s-card .inner{
+    width: 300px;
+    height: 50px;
+    padding: 22px;
+    background-color: rgb(202,199,199);
+    margin-left: 39px;
+    margin-top: -11px;
+}
+.s-card .inner:hover{
+    cursor: pointer;
+}
+
+.s-card button{
+width: 160px;
+height: 40px;
+background-color: rgb(249,39,4);
+color: white;
+border: none;
+border-radius:2px;
+font-size: 18px;
+}
+button:hover{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 44px;
+    color: white;
+    margin-top: 33px;
+}
